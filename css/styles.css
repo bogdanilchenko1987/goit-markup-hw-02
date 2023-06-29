@@ -1,0 +1,205 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+  --main-bg: #ffffff;
+  --btn-bg: #2196f3;
+  --team-bg: #f5f4fa;
+  --footer-bg: #2f303a;
+  --black-color: #000000;
+  --header-color: #212121;
+  --text-color: #757575;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background: var(--main-bg);
+  color: var(--header-color);
+  font-family: var(--main-font);
+}
+
+/* a {
+  text-decoration: none;
+} */
+ul {
+  list-style-type: none;
+}
+
+.header-logo {
+  color: var(--black-color);
+  font-size: 26px;
+  font-family: var(--second-font);
+  line-height: normal;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
+
+span {
+  color: var(--btn-bg);
+}
+
+.navigation .navigation-item {
+  color: var(--header-color);
+  font-size: 14px;
+  font-family: var(--second-font);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.navigation .navigation-item:hover,
+.navigation .navigation-item:focus,
+.navigation .active {
+  color: var(--btn-bg);
+}
+
+.contacts .contacts-item {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+.contacts .contacts-item:hover,
+.contacts .contacts-item:focus {
+  color: var(--btn-bg);
+}
+
+.hero {
+  background: var(--footer-bg);
+}
+
+.hero .hero-header {
+  color: var(--main-bg);
+  text-align: center;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.hero .hero-btn {
+  font-family: inherit;
+  background: var(--btn-bg);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  color: var(--main-bg);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+}
+
+.features .features-header {
+  /* color: var(--header-color); */
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.features .features-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
+
+.work .work-header {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 1.08px;
+}
+
+.team {
+  background: var(--team-bg);
+}
+
+.team .team-person {
+  /* color: var(--header-color); */
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.48px;
+}
+
+.team .team-position {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.48px;
+}
+
+.footer {
+  background: var(--footer-bg);
+}
+.footer .footer-logo {
+  color: var(--main-bg);
+  font-size: 26px;
+  font-family: var(--second-font);
+  line-height: normal;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
+
+.footer-adress {
+  font-style: normal;
+}
+
+.footer-place {
+  color: var(--main-bg);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  text-decoration: none;
+}
+
+.footer-place.footer-contacts {
+  color: var(--contacts-color);
+}
+
+.footer-place:hover,
+.footer-place:focus {
+  color: var(--btn-bg);
+}
+
+.filter .filter-btn {
+  font-family: inherit;
+  border-radius: 4px;
+  background: var(--team-bg);
+  /* color: var(--header-color); */
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
+  cursor: pointer;
+}
+
+.filter .filter-btn:hover,
+.filter .filter-btn:focus {
+  background: var(--btn-bg);
+  color: var(--main-bg);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.examples .examples-name {
+  /* color: var(--header-color); */
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 1.08px;
+}
+
+.examples .examples-filter {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.48px;
+}
